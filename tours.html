@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Wel-Come to Matka travel</title>
+		<meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Your description">
+        <meta name="keywords" content="Your keywords">
+        <meta name="author" content="Your name">
+        
+        <!-- Stylesheet Box -->
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.11.2/css/bootstrap-select.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.css" rel="stylesheet">
+        <link href="css/header.css" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet">
+        <link href="css/searchresults.css" rel="stylesheet">
+        <link href="css/footer.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        
+        <!-- JS box -->
+	</head>
+	<body>
+    	<header>
+            <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html"><img src="images/logo.png" title="Matka Travel - Let us show you the world!"></a>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="active"><a href="index.html">Home</a></li>
+                            <li><a href="signup.html">Sign Up</a></li>
+                            <li><a href="login.html">Log in</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="container">
+        	<div class="trip_box">
+            	<div class="row">
+                    <div class="col-md-3 col-sm-4">
+                    	<div class="tours_sidebar">
+                            <h6>Search</h6>
+                            <form id="ajax-contact-form2" class="form-horizontal" action="javascript:#;">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="form-group">
+                                            <label for="where">SFO</label>
+                                            <input type="text" class="form-control" id="where" name="name" value="SFO" onBlur="if(this.value=='') this.value='Where do you want to go?'" onFocus="if(this.value =='Where do you want to go?' ) this.value=''">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="form-group">
+                                            <label for="where">NYC</label>
+                                            <input type="text" class="form-control" id="where" name="name" value="NYC" onBlur="if(this.value=='') this.value='Where do you want to go?'" onFocus="if(this.value =='Where do you want to go?' ) this.value=''">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="form-group">
+                                            <label for="checkin">Check In</label>
+                                            <input class="form-control" id="date" name="date" placeholder="DD/MM/YYY" type="text"/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="form-group">
+                                            <label for="checkout">Check Out</label>
+                                            <input class="form-control" id="date" name="date" placeholder="DD/MM/YYY" type="text"/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn-default btn-cf-submit2">search</button>
+                            </form>
+                            <div class="divider2"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-9 col-sm-8">
+                    	<div class="tours_content">
+                        		<div class="tours_content_top clearfix">
+                        			<div class="left">
+                                        <select class="selectpicker">
+                                            <option value="1">Sort by price</option>
+                                            <option value="2">less than < 100</option>
+                                        </select>
+                        			</div>
+                                    <div class="left">
+                                        <select class="selectpicker">
+                                            <option value="1">Sort by ranking</option>
+                                            <option value="2">less than < 100</option>
+                                        </select>
+                        			</div>
+                                </div>
+                                <div class="list_tour">
+                                    <figure><img src="images/tt1.jpg" alt=""></figure>
+                                    <div class="caption clearfix">
+                                        <div class="left">
+                                            <div class="txt1">19.07 - 26.07 / 7 night</div>
+                                            <div class="txt2">tours in greek</div>
+                                            <div class="txt3">
+                                                <div class="stars">
+                                                    <img src="images/star1.png" alt="">
+                                                    <img src="images/star1.png" alt="">
+                                                    <img src="images/star1.png" alt="">
+                                                </div>
+                                                174 Reviews
+                                            </div>
+                                            <div class="txt4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</div>
+                                        </div>
+                                        <div class="right">
+                                            <div class="txt5">from</div>
+                                            <div class="txt6">$273</div>
+                                            <div class="txt7"><a href="tour_detail.html" class="btn-default btn3">view more</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="list_tour clearfix">
+                                	<figure><img src="images/tt2.jpg" alt="" class="img-responsive"></figure>
+                                	<div class="caption clearfix">
+                                		<div class="left">
+                                			<div class="txt1">19.07 - 26.07 / 7 night</div>
+                                			<div class="txt2">tours in nice, france</div>
+                                			<div class="txt3">
+                                            	<div class="stars">
+                                                	<img src="images/star1.png" alt="">
+                                                    <img src="images/star1.png" alt="">
+                                                    <img src="images/star1.png" alt="">
+                                                    <img src="images/star1.png" alt="">
+                                                    <img src="images/star1.png" alt="">
+                                               	</div>
+                                                283 Reviews
+                                         	</div>
+                                			<div class="txt4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</div>
+                                		</div>
+                                		<div class="right">
+                                			<div class="txt5">from</div>
+                                			<div class="txt6">$350</div>
+                                			<div class="txt7"><a href="tour_detail.html" class="btn-default btn3">view more</a></div>
+                                		</div>
+                                	</div>
+                                </div>
+                        		<div class="list_tour clearfix">
+                        			<figure><img src="images/tt3.jpg" alt="" class="img-responsive"></figure>
+                        			<div class="caption clearfix">
+                        				<div class="left">
+                        					<div class="txt1">19.07 - 26.07 / 7 night</div>
+                        					<div class="txt2">tours in georgia</div>
+                        					<div class="txt3">
+                                            	<div class="stars">
+                                                	<img src="images/star1.png" alt="">
+                                                    <img src="images/star1.png" alt="">
+                                                    <img src="images/star1.png" alt="">
+                                                    <img src="images/star1.png" alt="">
+                                               	</div>
+                                                485 Reviews
+                                         	</div>
+                        					<div class="txt4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</div>
+                        				</div>
+                        				<div class="right">
+                        					<div class="txt5">from</div>
+                        					<div class="txt6">$345</div>
+                        					<div class="txt7"><a href="tour_detail.html" class="btn-default btn3">view more</a></div>
+                        				</div>
+                        			</div>
+                        		</div>
+                                <div class="list_tour clearfix">
+                                	<figure><img src="images/tt4.jpg" alt="" class="img-responsive"></figure>
+                                	<div class="caption clearfix">
+                                		<div class="left">
+                                			<div class="txt1">19.07 - 26.07 / 7 night</div>
+                                			<div class="txt2">tours in austria</div>
+                                			<div class="txt3">
+                                            	<div class="stars">
+                                                    <img src="images/star1.png" alt="">
+                                                    <img src="images/star1.png" alt="">
+                                                    <img src="images/star1.png" alt="">
+                                                    <img src="images/star1.png" alt="">
+                                                    <img src="images/star1.png" alt="">
+                                                </div>
+                                                485 Reviews
+                                            </div>
+                                            <div class="txt4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</div>
+                                        </div>
+                                        <div class="right">
+                                            <div class="txt5">from</div>
+                                            <div class="txt6">$250</div>
+                                            <div class="txt7"><a href="tour_detail.html" class="btn-default btn3">view more</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="list_tour clearfix">
+                                	<figure><img src="images/tt5.jpg" alt="" class="img-responsive"></figure>
+                                    <div class="caption clearfix">
+                                        <div class="left">
+                                            <div class="txt1">19.07 - 26.07 / 7 night</div>
+                                            <div class="txt2">tours in usa</div>
+                                            <div class="txt3">
+                                                <div class="stars">
+                                                    <img src="images/star1.png" alt="">
+                                                    <img src="images/star1.png" alt="">
+                                                    <img src="images/star1.png" alt="">
+                                                    <img src="images/star1.png" alt="">
+                                                    <img src="images/star1.png" alt="">
+                                                </div>
+                                                120 Reviews
+                                            </div>
+                                            <div class="txt4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</div>
+                                        </div>
+                                        <div class="right">
+                                            <div class="txt5">from</div>
+                                            <div class="txt6">$999</div>
+                                            <div class="txt7"><a href="tour_detail.html" class="btn-default btn3">view more</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="list_tour clearfix">
+                                	<figure><img src="images/tt6.jpg" alt="" class="img-responsive"></figure>
+                                	<div class="caption clearfix">
+                                		<div class="left">
+                                			<div class="txt1">19.07 - 26.07 / 7 night</div>
+                                			<div class="txt2">tours in budapesht</div>
+                                			<div class="txt3">
+                                                <div class="stars">
+                                                    <img src="images/star1.png" alt="">
+                                                    <img src="images/star1.png" alt="">
+                                                    <img src="images/star1.png" alt="">
+                                                </div>
+                                                224 Reviews
+                                            </div>
+                                            <div class="txt4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</div>
+                                        </div>
+                                        <div class="right">
+                                			<div class="txt5">from</div>
+                                			<div class="txt6">$199</div>
+                                			<div class="txt7"><a href="tour_detail.html" class="btn-default btn3">view more</a></div>
+                                		</div>
+                                	</div>
+                                </div>
+                                <div class="list_tour clearfix">
+                                	<figure><img src="images/tt7.jpg" alt="" class="img-responsive"></figure>
+                                	<div class="caption clearfix">
+                                		<div class="left">
+                                			<div class="txt1">19.07 - 26.07 / 7 night</div>
+                                			<div class="txt2">tours in maldives</div>
+                                			<div class="txt3">
+                                            	<div class="stars">
+                                                	<img src="images/star1.png" alt="">
+                                                    <img src="images/star1.png" alt="">
+                                                    <img src="images/star1.png" alt="">
+                                                    <img src="images/star1.png" alt="">
+                                                    <img src="images/star1.png" alt="">
+                                               	</div>
+                                               	841 Reviews
+                                            </div>
+                                            <div class="txt4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</div>
+                                        </div>
+                                        <div class="right">
+                                            <div class="txt5">from</div>
+                                            <div class="txt6">$699</div>
+                                            <div class="txt7"><a href="tour_detail.html" class="btn-default btn3">view more</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="list_tour clearfix">
+                                	<figure><img src="images/tt8.jpg" alt="" class="img-responsive"></figure>
+                                    <div class="caption clearfix">
+                                        <div class="left">
+                                            <div class="txt1">19.07 - 26.07 / 7 night</div>
+                                            <div class="txt2">tours in italy</div>
+                                            <div class="txt3">
+                                                <div class="stars">
+                                                    <img src="images/star1.png" alt="">
+                                                    <img src="images/star1.png" alt="">
+                                                    <img src="images/star1.png" alt="">
+                                                    <img src="images/star1.png" alt="">
+                                                </div>
+                                                87 Reviews
+                                            </div>
+                                            <div class="txt4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</div>
+                                        </div>
+                                        <div class="right">
+                                            <div class="txt5">from</div>
+                                            <div class="txt6">$499</div>
+                                            <div class="txt7"><a href="tour_detail.html" class="btn-default btn3">view more</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pager_wrapper">
+                                    <ul class="pager clearfix">
+                                        <li class="prev"><a href="#"><i class="fa fa-angle-left" aria-hidden="true"></i> prev page</a></li>
+                                        <li class="active"><a href="#">1</a></li>
+                                        <li class="li"><a href="#">2</a></li>
+                                        <li class="li"><a href="#">3</a></li>
+                                        <li class="li"><a href="#">4</a></li>
+                                        <li class="dots"><a href="#">...</a></li>
+                                        <li class="li"><a href="#">10</a></li>
+                                        <li class="next"><a href="#">next page <i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                </div>
+                        	</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+		<footer class="footer">
+            <div class="footer_text">
+                <div class="container">
+                	<div class="row">
+                    	<div class="col-md-3">
+                            <ul class="fotter_menu clearfix">
+                                <li><a href="privacy.html">Privacy Policy</a></li>
+                                <li><a href="about-us.html">About Us</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-9">
+                        	<div class="copyright">&copy; 2016 All Rights Reserved. Matka Travel Company</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.11.2/js/bootstrap-select.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.js"></script>
+        <script>
+			$(document).ready(function(){
+				var date_input=$('input[name="date"]'); //our date input has the name "date"
+				var container=$('.bootstrap-iso form').length>0 ? $('.bootstrap-iso form').parent() : "body";
+				date_input.datepicker({
+					format: 'dd/mm/yyyy',
+					container: container,
+					todayHighlight: true,
+					autoclose: true,
+				})
+			})
+		</script>
+	</body>
+</html>

@@ -1,0 +1,11 @@
+/* GOOGLE FONTS */
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic);
+
+header{ float:left; width:100%; margin:0px; padding:0px;}
+.navbar-default{ background:rgba(255, 255, 255, 0.85); transition:all 0.3s ease-out; -moz-transition:all 0.3s ease-out; -webkit-transition:all 0.3s ease-out; -o-transition: all 0.3s ease-out; border:none;}
+.navbar-brand{ height:auto; padding:10px 0px; margin-right:30px;}
+.navbar img{ width:auto; height:auto;}
+.navbar-right{ margin-top:30px; margin-bottom:30px;}
+.navbar-nav > li > a{ padding:5px 15px; text-transform:uppercase; font-family:'Roboto Condensed'; font-weight:700; font-size:12px;}
+.navbar-default .navbar-nav > li > a{ color:#000;}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover{ background-color:#13e7ff; color:#FFF;}

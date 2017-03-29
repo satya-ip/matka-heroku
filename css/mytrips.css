@@ -1,0 +1,54 @@
+/*========== My-Trips Page ==========*/
+
+.tripphoto{ height:auto; float:left; width:100%;}
+.tripphoto img{ width:100%; height:auto;}
+.tab_box{ float:left; width:100%; margin-top:70px; padding-bottom:150px;}
+.tab_box h1{ float:left; width:100%; text-align:center; font-size:60px; font-family:'Roboto Condensed'; color:#151515; font-weight:bold; padding-bottom:20px; text-transform:uppercase;}
+.tab_box h1 span, .checkout_text h1 span{ font-weight:300;}
+.bs-example{ float:left; margin-top:20px; width:100%;}
+.nav-tabs{ border-bottom:none;}
+.nav-tabs > li > a{ border-radius:0px; font-family:'Roboto Condensed'; font-size:16px; color:#151515; font-weight:bold; padding:23px 20px; text-transform:uppercase; letter-spacing:1px; text-decoration:none;}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{ color:#13e7ff;}
+.nav > li > a:hover{ background-color:#3f3e44; color:#FFF;}
+.tab-content{ border:1px solid #ddd; background-color:#FFF; padding:40px 19px; float:left; width:100%;}
+.trip_list{ float:left; width:100%; border:1px solid #ddd; background-color:#fbfbfb;}
+.rowone, .rowtwo{ float:left; width:100%; background-color:#ededed;}
+.rowone h1{ float:left; max-width:512px; width:100%; font-size:14px; font-weight:bold; color:#151515; font-family:'Roboto Condensed'; padding:17px 0px; border-right:1px solid #ddd; text-align:center; text-transform:uppercase; margin:0px;}
+.rowone h2, .rowtwo h2{ float:left; max-width:169px; width:100%; font-size:14px; font-weight:bold; color:#151515; font-family:'Roboto Condensed'; padding:17px 0px; border-right:1px solid #ddd; text-align:center; text-transform:uppercase; margin:0px;}
+.rowone h3, .rowtwo h3{ float:left; max-width:169px; width:100%; font-size:14px; font-weight:bold; color:#151515; font-family:'Roboto Condensed'; padding:17px 0px; border-right:1px solid #ddd; text-align:center; text-transform:uppercase; margin:0px;}
+.rowone h4{ float:left; max-width:139px; width:100%; font-size:14px; font-weight:bold; color:#151515; font-family:'Roboto Condensed'; padding:17px 0px; border-right:1px solid #ddd; text-align:center; text-transform:uppercase; margin:0px;}
+.rowone h5{ float:left; max-width:109px; width:100%; font-size:14px; font-weight:bold; color:#151515; font-family:'Roboto Condensed'; padding:17px 0px; text-align:center; text-transform:uppercase; margin:0px;}
+.rowtwo h1{ float:left; max-width:621px; width:100%; font-size:14px; font-weight:bold; color:#151515; font-family:'Roboto Condensed'; padding:17px 0px; border-right:1px solid #ddd; text-align:center; text-transform:uppercase; margin:0px;}
+.rowtwo h4{ float:left; max-width:139px; width:100%; font-size:14px; font-weight:bold; color:#151515; font-family:'Roboto Condensed'; padding:17px 0px; text-align:center; text-transform:uppercase; margin:0px;}
+.tour_box{ float:left; width:100%; border-top:1px solid #ddd;}
+.tour_list{ float:left; max-width:512px; width:100%; border-right:1px solid #ddd;}
+.trip_text{ width:100%; float:left; padding:20px 10px;}
+.origin_box, .desti_box{ color:#333; font-weight:400; float:left; width:100%; padding:3px 0px; font-family:'Roboto Condensed'; display:none;}
+.trip_text a{ float:left; width:100%; font-family:'Roboto Condensed'; font-size:18px; color:#13e7ff; font-weight:bold; padding-bottom:10px; text-transform:uppercase; letter-spacing:1px; text-decoration:none;}
+.trip_text a:hover{ color:#3f3e44;}
+.trip_text p{ float:left; width:100%; font-size:14px; font-weight:normal; line-height:20px; font-family:'Roboto Condensed'; color:#151515; letter-spacing:1px; margin:0px;}
+.trip_text span{ float:left; background-color:#45c8f2; padding:8px 15px; font-size:14px; color:#FFF; font-weight:normal; font-family:'Roboto Condensed'; margin-right:15px; display:none; margin-top:15px;}
+.trip_text span i{ font-size:14px; color:#FFF; margin-right:6px;}
+.trip_text small a{ float:left; padding-top:10px; font-weight:bold; font-family:'Roboto Condensed';font-size:14px; letter-spacing:normal; color:#d13737; width:auto; padding-bottom:0px; margin-top:15px; display:none;}
+.trip_text small a i{ color:#d13737; font-size:18px; margin-right:6px;}
+.trip_text small a:hover{ color:#d13737;}
+.origincity, .destination{ float:left; max-width:169px; width:100%; border-right:1px solid #ddd;}
+.origincity p{ float:left; width:100%; text-align:center; font-weight:normal; font-size:14px; color:#151515; font-family:'Roboto Condensed'; line-height:20px; margin:0px; padding:27px 15px;}
+.destination p{ float:left; text-align:center; color:#151515; font-family:'Roboto Condensed'; font-weight:normal; font-size:14px; line-height:20px; margin:0px; padding:47px 15px; width:100%;}
+.status{ float:left; max-width:139px; width:100%; border-right:1px solid #ddd; text-align:center; padding:39px 0px 40px;}
+.status p{ display:inline-block; background-color:#45c8f2; padding:8px 15px; font-size:14px; color:#FFF; font-weight:normal; font-family:'Roboto Condensed'; text-align:center; margin:0px;}
+.status p i{ font-size:14px; color:#FFF; margin-right:6px;}
+.remove{ float:left; max-width:109px; width:100%; text-align:center; padding-top:46px;}
+.remove a{ font-weight:bold; font-family:'Roboto Condensed';font-size:14px; text-transform:uppercase; color:#d13737; margin:0px; text-decoration:none;}
+.remove a i{ color:#d13737; font-size:18px; margin-right:6px;}
+.completed{ float:left; max-width:139px; width:100%; border-right:1px solid #ddd; text-align:center; padding:39px 0px;}
+.completed p{ display:inline-block; background-color:#0f9f19; padding:8px 15px; font-size:14px; color:#FFF; font-weight:normal; font-family:'Roboto Condensed'; text-align:center; margin:0px;}
+.completed p i{ font-size:14px; color:#FFF; margin-right:6px;}
+.trip_text samp{ float:left; background-color:#0f9f19; padding:8px 15px; font-size:14px; color:#FFF; font-weight:normal; font-family:'Roboto Condensed'; margin-right:15px; display:none; margin-top:15px;}
+.trip_text samp i{ font-size:14px; color:#FFF; margin-right:6px;}
+.cart{ float:left; max-width:109px; width:100%; text-align:center; padding:39px 0px;}
+.cart a{ display:inline-block; font-weight:bold; font-family:'Roboto Condensed';font-size:14px; text-transform:uppercase; color:#FFF; background-color:#FFCE43; padding:8px;}
+.trip_text strong a{ float:left; background-color:#FFCE43; padding:8px; text-transform:uppercase; font-family:'Roboto Condensed'; font-weight:bold; color:#FFF; font-size:14px; letter-spacing:1px; display:none; width:auto; margin-top:15px;}
+.trip_text strong a:hover, .cart a:hover{ background-color:#26822c; color:#FFF;}
+#comp_tour{ max-width:621px;}
+#comple{ border-right:none;}

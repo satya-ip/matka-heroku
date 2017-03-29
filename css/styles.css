@@ -1,0 +1,472 @@
+/*========== Default StyleSheet ==========*/
+body{ margin:0px; padding:0px; font:16px 'Source Sans Pro', Arial, Helvetica, sans-serif; color:#000; background-color:#f8f8f8; text-decoration:none;}
+li, ul, ol{ list-style: none;}
+h1, h2, h3, h4, h5, h6 { font-style:normal; font-weight:normal; margin:0px; padding:0px;}
+a, a img { text-decoration: none !important; border: 0; outline: none !important; transition:all 300ms ease-in-out; -webkit-transition:all 300ms ease-in-out; -ms-transition:all 400ms ease-in-out;}
+a:link, a:visited, a:hover, a:active{ vertical-align:middle; border:none;}
+
+/*========== Index Page ==========*/
+.serach_tripbox{ background:rgba(0, 0, 0, 0.7); padding:60px 0px 130px; position:absolute; width:100%; bottom:0;}
+.select_option{ float:left; width:100%; margin:0px 0px;}
+.select_option label{ float:left; width:100%; font-family:'Roboto Condensed'; font-weight:400; font-size:14px; color:#FFF; margin-bottom:15px;}
+.select_option select, .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn){ width:100%;}
+.btn-default{ border-radius:0px; border:none; padding:10px 15px;}
+.dropdown-menu{ border:0px; border-radius:0px; padding:0px;}
+.btn-default:active{ background:none; border:none;}
+.btn-group.open .dropdown-toggle{ box-shadow:inset 2px 2px 7px rgba(0, 0, 0, 0.2);}
+.btn-group > .btn:hover, .open > .dropdown-toggle.btn-default:hover, .open > .dropdown-toggle.btn-default, .btn-default:focus, .open > .dropdown-toggle.btn-default:focus{ background-color:#FFF; border:none;}
+.dropdown-menu > li > a{ padding:5px 20px;}
+.form-control{ border-radius:0px; border:none; padding:10px 15px; height:auto;}
+.form-control:focus{ box-shadow:none; border-color:rgba(0, 0, 0, 0.0);}
+.btn-form1-submit{ border:none; font-family:'Roboto Condensed'; font-size:14px; font-weight:bold; padding:27px 29px; background-color:#44CEDA; text-transform:uppercase; text-align:center; width:100%; color:#FFF; line-height:20px;}
+.btn-form1-submit:hover{ background-color:#FFF; color:#000;}
+.btn-form1-submit i{ font-size:20px; float:left; padding-right:10px;}
+.datepicker-dropdown{ padding:7px 15px !important;}
+
+/*========== About Page ==========*/
+.hero_imagecont{ float:left; width:100%; background:url(../images/parallax2.jpg) no-repeat center top; background-size:cover; padding:200px 0px 150px;}
+.parallax{ text-align:center; font-family:'Roboto Condensed'; float:left; width:100%; font-weight:bold; font-size:38px; color:#fff; text-transform:uppercase; letter-spacing:3px; padding-top:50px;}
+.about_service{ float:left; width:100%; margin-top:80px; padding-bottom:150px;}
+.about_heading{ margin-top:10px; width:100%; text-align:center; float:left;}
+.about_heading h1, .contact_box h1{ font-family:'Roboto Condensed'; font-size:32px; float:left; width:100%; font-weight:bold; color:#222; text-align:center; text-transform:uppercase; letter-spacing:2px; margin:0px;}
+.about_heading p{ width:100%; float:left; font-family:'Source Sans Pro'; font-size:16px; font-weight:400; color:#b9b9b9; padding-top:10px; text-align:center; line-height:22px;}
+.service_box{ float:left; width:100%; text-align:center; margin-top:30px;}
+.service_box img{ width:auto; height:auto; text-align:center; display:inline-block;}
+.service_box h2{ font-family:'Roboto Condensed'; text-align:center; float:left; width:100%; font-weight:700; font-size:16px; padding-top:20px; color:#222222; text-transform:uppercase; letter-spacing:1px;}
+.service_box p{ float:left; width:100%; text-align:center; padding-top:12px; font-size:14px; line-height:20px; color:#7a7a7a; font-weight:normal;}
+.about_text{ float:left; width:100%; margin-top:100px;}
+.about_text h3{ font-family:'Roboto Condensed'; font-size:32px; float:left; border-bottom:3px solid #222; font-weight:bold; color:#222; text-align:left; text-transform:uppercase; letter-spacing:2px; margin:0px; padding-bottom:10px;}
+.about_text p{ text-align:left; float:left; width:100%; font-size:16px; font-weight:normal; color:#7d7d7d; line-height:23px; margin:0px; padding-top:15px;}
+
+/*========== Privacy Page ==========*/
+.privacy_parallax{ float:left; width:100%; background:url(../images/parallax1.jpg) no-repeat center top; background-size:cover; padding:200px 0px 150px;}
+#privecy{ margin-top:0px;}
+
+/*========== Checkout Page ==========*/
+.checkout_box{ float:left; width:100%; background-color:#e9e9e9; padding-top:165px; border-bottom:1px solid #ccc;}
+.checkout_text{ float:left; width:100%; text-align:center; padding-bottom:120px;}
+.checkout_text h1{ float:left; width:100%; text-align:center; font-size:60px; font-family:'Roboto Condensed'; color:#151515; font-weight:bold; text-transform:uppercase;}
+.checkout_text h1 span{ font-weight:300;}
+.checkout_text p{ display:inline-block; font-size:18px; font-family:'Roboto Condensed'; color:#151515; font-weight:normal; text-align:center; margin:0px; padding-top:10px;}
+.main_billing{ float:left; width:100%; margin-top:30px; margin-bottom:150px;}
+.billing_detail{ float:left; width:100%; border:1px solid #ddd; background-color:#FFF; padding:25px; margin:15px 0px;}
+.billing_detail h1{ float:left; width:100%; font-family:'Roboto Condensed'; font-size:25px; font-weight:bold; color:#151515; text-transform:uppercase; letter-spacing:1px;}
+.billing_detail h2{ float:left; width:100%; font-size:18px; font-family:'Roboto Condensed'; font-weight:bold; color:#555;}
+.information{ float:left; width:100%; margin:10px 0px;}
+.information input{ float:left; height:48px; width:100%; padding:10px 16px; font-size:14px; line-height:20px; color:#555; background-color:#fff; border:1px solid #ccc; -webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, .075); box-shadow:inset 0 1px 1px rgba(0, 0, 0, .075); -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;-o-transition:border-color ease-in-out .15s, box-shadow ease-in-out .15s; transition:border-color ease-in-out .15s, box-shadow ease-in-out .15s; margin:10px 0px;}
+.information select{ float:left; height:48px; width:100%; padding:10px 16px; font-size:14px; line-height:20px; color:#555; background-color:#fff; border:1px solid #ccc; -webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, .075); box-shadow:inset 0 1px 1px rgba(0, 0, 0, .075); -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s; -o-transition:border-color ease-in-out .15s, box-shadow ease-in-out .15s; transition:border-color ease-in-out .15s, box-shadow ease-in-out .15s; margin:10px 0px; appearance:none; -moz-appearance:none; -webkit-appearance:none; background:url(../images/select_arrow.png) no-repeat right 10px top 22px; cursor:pointer;}
+.input-lg option, .information option, .sign_part2 option{ padding:2px 16px;}
+#option_but{ float:left; margin-top:30px;}
+#option_but input{ float:left; margin-right:10px;}
+#option_but label{ font-family:'Roboto Condensed'; font-size:14px; color:#151515; font-weight:normal; float:left; margin:0px;}
+.billing_detail p{ float:left; width:100%; font-size:14px; color:#151515; font-weight:normal;}
+.billing_detail input[type="button"]{ float:left; padding:13px 15px; background-color:#13e7ff; border:none; font-size:14px; font-weight:bold; color:#FFF; text-transform:uppercase; letter-spacing:1px; font-family:'Roboto Condensed'; line-height:20px;}
+.billing_detail input[type="button"]:hover{ background-color:#3f3e44;}
+.package_info{ float:left; width:100%; border:1px solid #ddd; background-color:#FFF; padding:15px; margin-top:15px;}
+.package_info h1{ font-family:'Roboto Condensed'; font-size:25px; color:#151515; font-weight:bold; float:left; width:100%; padding-bottom:10px;}
+.package_info img{ float:left; width:100%; height:auto; margin-bottom:15px;}
+.package_info h2{ font-family:'Roboto Condensed'; float:left; font-size:20px; color:#151515; width:100%; padding-bottom:8px; font-weight:bold;}
+.package_info p{ float:left; width:100%; font-family:'Roboto Condensed'; font-size:14px; color:#151515; font-weight:300; margin:0px; line-height:18px;}
+.package_info h6{ float:left; color:#13e7ff; width:100%; font-weight:bold; font-size:36px; font-family:'Roboto Condensed'; padding-top:8px;}
+
+/*========== Contact Page ==========*/
+.contact_box{ float:left; width:100%; margin-top:70px; padding-bottom:150px;}
+.contact_box p{ line-height:22px; font-weight:bold; float:left; width:100%; color:#022c54; text-transform:uppercase; padding-top:20px; letter-spacing:2px; text-align:center; font-family:'Roboto Condensed';}
+.contact_fields{ float:left; width:100%; margin-top:60px;}
+.inputbox_contact{ float:left; width:100%; margin:10px 0px;}
+.inputbox_contact input, .login input, .signup input{ height:48px; float:left; padding:13px 12px; width:100%; font-size:14px; line-height:22px; color:#333; background:#fff; border:1px solid #dedede; border-radius: 0px; -moz-border-radius:0px; -webkit-border-radius:0px; -webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, .075); box-shadow:inset 0 1px 1px rgba(0, 0, 0, .075); -webkit-transition:border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s; -o-transition:border-color ease-in-out .15s, box-shadow ease-in-out .15s; transition:border-color ease-in-out .15s, box-shadow ease-in-out .15s;}
+.inputbox_contact textarea{ float:left; padding:13px 12px; width:100%; font-size:14px; line-height:22px; color:#959595; background:#fff; border:1px solid #dedede; border-radius: 0px; -moz-border-radius:0px; -webkit-border-radius:0px; -webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, .075); box-shadow:inset 0 1px 1px rgba(0, 0, 0, .075); -webkit-transition:border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s; -o-transition:border-color ease-in-out .15s, box-shadow ease-in-out .15s; transition:border-color ease-in-out .15s, box-shadow ease-in-out .15s;}
+.btn-default.btn-cf-submit{display: block; background-color:#13E7FF; color:#FFF; font-family: 'Roboto Condensed'; font-size: 12px; line-height: 20px; font-weight: 700; padding: 13px 20px; text-decoration: none;border-radius:0px; -moz-border-radius:0px; -webkit-border-radius:0px; border:none; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 25px; text-decoration:none;}
+.btn-default.btn-cf-submit:hover{ background:#3F3E44;}
+.contact_detail{ float:left; width:100%; margin-top:60px;}
+.contact_detail h2{ float:left; font-family:'Roboto Condensed'; font-size:16px; line-height:22px; font-weight:bold; color:#222;text-transform:uppercase;padding-bottom:15px;letter-spacing:2px; width:100%;}
+.contact_detail p{ float:left; width:100%; color:#7d7d7d; font-weight:normal; line-height:23px; padding:0px; text-align:left; letter-spacing:normal; text-transform:none; font-family:inherit;}
+.contact_detail h3{ float:left; font-family:'Roboto Condensed'; font-size:16px; line-height:22px; font-weight:bold; color:#222;text-transform:uppercase;padding-bottom:15px;letter-spacing:2px; width:100%; margin-top:20px;}
+.contact_detail span{ float:left; width:100%; font-weight:normal; color:#6e767c; line-height:22px; margin-bottom:5px;}
+.contact_detail span a{ color:#337ab7; margin-top:-5px; display:inline-block;}
+.contact_detail span a:hover, .social li a:hover{ color:#23527c;}
+.social{ margin:0px; padding:0px; float:left; width:100%; list-style:none; margin-top:15px;}
+.social li{ padding:2px 0px; text-decoration:none;}
+.social li a{ font-weight:normal; color:#337ab7;}
+.social li a i{ width:7%; text-align:center; display:inline-block; font-size:20px; vertical-align:middle; margin-right:5px;}
+
+/*========== Login Page ==========*/
+.login_box{ float:left; width:100%; padding-top:130px; padding-bottom:150px;}
+.login_box h1{ width:100%; color:#141823; font-size:25px;font-weight:bold;text-transform:uppercase;float:left;border-bottom:1px solid #444; padding-bottom:8px; margin-bottom:20px;}
+.login, .signup{ float:left; width:100%; margin:10px 0px;}
+.login label, .sign_part2 label{ width:100%; font-family:'Roboto Condensed'; font-size:16px; color:#151515; font-weight:normal; float:left;}
+.remember{ float:left; margin-bottom:0px;}
+.remember input{ margin-top:5px; float:left;}
+.remember label{ font-family:'Roboto Condensed'; font-size:16px; color:#151515; font-weight:normal; float:left; padding-left:10px;}
+.login_btn, .signup_but{ background:#13E7FF; border:none; float:left; border-radius:0px; color:#fff; padding:13px 20px; text-transform:uppercase; font-weight:bold; font-family:'Roboto Condensed'; font-size:14px; letter-spacing:1px; margin-top:15px;}
+.login_btn:hover, .signup_but:hover{ background:#3F3E44;}
+.remember a{ font-family:'Roboto Condensed'; float:left; font-size:16px; font-weight:normal; color:#151515; line-height:22px; text-decoration:underline !important; padding-top:20px;}
+.remember a:hover{ color:#13e7ff;}
+
+/*========== Sing-Up Page ==========*/
+.login_box h4{ float:left; width:100%; font-size:16px; font-family:'Roboto Condensed'; color:#151515; font-weight:normal; padding-bottom:12px; line-height:24px;}
+.sign_part2{ margin-top:30px; float:left;}
+.sign_part2 select{ float:left; height:48px; width:100%; padding:10px 16px; font-size:14px; line-height:20px; color:#555; border:1px solid #ccc; -webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, .075); box-shadow:inset 0 1px 1px rgba(0, 0, 0, .075); -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s; -o-transition:border-color ease-in-out .15s, box-shadow ease-in-out .15s; transition:border-color ease-in-out .15s, box-shadow ease-in-out .15s; margin-bottom:20px; appearance:none; -moz-appearance:none; -webkit-appearance:none; background:#fff url(../images/select_arrow.png) no-repeat right 10px top 22px; cursor:pointer;}
+.sign_part2 input{ float:left; width:100%; height:48px; font-size:14px; padding:10px 16px; border-radius:0px; border:1px solid #dedede; line-height:20px; margin-bottom:20px;}
+.radio-inline{ width:49%; margin-left:0px !important; line-height:48px; margin-bottom:10px; font-family:'Roboto Condensed'; color:#151515; font-size:14px;}
+.radio-inline input{ width:auto; height:auto; margin-top:17px !important;}
+.help-block{ font-size:15px; margin-bottom:0px;}
+
+/*========== Thanks Page ==========*/
+.thanks{ float:left; width:100%; text-align:center; margin-top:130px;}
+.thanks h1{ font-size:60px; font-family:'Roboto Condensed'; font-weight:bold; color:#13E7FF; letter-spacing:1px; text-transform:uppercase;}
+.thanks p{ font-size:18px;  font-weight:normal; color:#151515; font-family:'Roboto Condensed';}
+.linked{ color:#13E7FF; font-size:18px; font-family:'Roboto Condensed';}
+.linked:hover{color:#3F3E44;}
+
+/*========== Trip List Page ==========*/
+.trip_box{ float:left; width:100%; margin-top:130px; padding-bottom:150px;}
+.tours_sidebar{background: #fff; padding: 20px; margin-bottom: 30px;}
+.tours_sidebar h6{font-family: 'Roboto Condensed'; font-size: 18px; color: #222222; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; padding-top: 5px; padding-bottom: 5px;}
+.tours_content{ margin-bottom:30px;}
+.tours_content_top{ padding-bottom:0px;}
+.tours_content_top .left{ float:left; width:20%; margin-right:20px;}
+.list_tour{ background:#fff; margin-top:30px; float:left; width:100%;}
+.list_tour figure{ float:left; width:32%;}
+.list_tour figure img{ float:left; width:100%; height:auto;}
+.list_tour .caption{overflow: hidden; padding: 20px 30px 5px 30px;}
+.list_tour .caption .left{float:left; width: 70%;}
+.list_tour .caption .txt1{font-size: 12px; color: #bebebe; font-weight: bold;}
+.list_tour .caption .txt2, .tour_detail .left_cont .txt2{font-family: 'Roboto Condensed'; font-size: 18px; color: #222222; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; padding-top:0px; padding-bottom:0px;}
+.list_tour .caption .txt3, .tour_detail .left_cont .txt3{font-size: 14px; color: #bebebe;}
+.list_tour .caption .txt3 .stars, .tour_detail .left_cont .txt3 .stars{min-width: 100px; display: inline-block;}
+.list_tour .caption .txt3 .stars img, .tour_detail .left_cont .txt3 .stars img{margin-right: 4px;}
+.list_tour .caption .txt4{font-size: 14px; color: #bebebe !important; padding-top: 10px; margin:0px;}
+.list_tour .caption .txt5{font-size: 14px; color: #222222; font-family: 'Roboto Condensed'; text-transform: uppercase; letter-spacing: 1px;}
+.list_tour .caption .txt6{font-size: 24px; color: #13e7ff; font-weight: 700; font-family: 'Roboto Condensed'; text-transform: uppercase; letter-spacing: 1px;}
+.list_tour .caption .txt7{padding-top: 40px;}
+.list_tour .caption .right {float: right; text-align: right;}
+.pager_wrapper{ text-align:center;}
+.pager{ display:inline-block;}
+.pager li{ float:left;}
+.pager li.prev a, .pager li.next a{ padding:7px 15px; display:inline-block; background-color:#fff; border:1px solid #ddd; text-transform:uppercase; font-size:12px; text-decoration:none;}
+.pager li.prev i, .pager li.next i{ font-size:17px; margin:0px 6px; text-decoration:none;}
+.pager li > a{ border-radius:0px; text-decoration:none; font-size:14px; margin:0px 3px; float:left; padding:9px 14px;}
+.pager li.dots a{ border-radius:0px; background:none; border:none; font-size:30px; line-height:34px; padding:0px 7px; float:left;}
+.pager li.active a{ background-color:#13E7FF; color:#FFFFFF; border:1px solid #FFF;}
+.btn-default.btn-cf-submit2{display: block; background: #13e7ff; color: #fff; font-family: 'Roboto Condensed'; font-size: 12px; line-height:20px; font-weight:700; padding:10px 20px; text-decoration: none;border-radius:0px; -moz-border-radius:0px; -webkit-border-radius:0px; text-transform: uppercase; letter-spacing:1px; margin-bottom:25px; border:none;}
+.btn-default.btn-cf-submit2:hover{ background-color:#3F3E44;}
+.btn-default.btn3{ font-family: 'Roboto Condensed'; display: inline-block; color: #fff; border: none; font-size: 12px; line-height: 20px; font-weight: 700; padding: 10px 20px; text-decoration: none; border-radius:0px; -moz-border-radius:0px; -webkit-border-radius:0px; margin-top: 0px; margin-bottom: 0px; text-transform: uppercase; background: #13e7ff; position: relative; border:none; letter-spacing: 1px; transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -webkit-transition: all 0.3s ease-out; -o-transition: all 0.3s ease-out;}
+.btn-default.btn3:hover{ background-color:#3F3E44;}
+
+
+/* Retina display */
+
+@media screen and (min-width: 1024px){
+    .logo-responsive{
+        background-image: url('../img/retina.jpg');
+    }
+}
+@media screen and (min-width: 980px) and (max-width: 1024px){
+    .logo-responsive{
+        background-image: url('../img/desktop.jpg');
+    }
+}
+@media screen and (min-width: 760px) and (max-width: 980px){
+    .logo-responsive{
+        background-image: url('../img/tablet.jpg');
+    }
+}
+@media screen and (min-width: 350px) and (max-width: 760px){
+    .logo-responsive{
+        background-image: url('../img/mobile-hd.jpg');
+    }
+}
+@media screen and (max-width: 350px){
+    .logo-responsive{
+        background-image: url('../img/mobile-ld.jpg');
+    }
+}
+@media (min-width:768px) {
+	#home .slogan{
+		color: #0e385f;
+		line-height: 29px;
+		font-weight:bold;
+	}
+}
+@media (min-width: 320px) and (max-width: 568px) {
+
+.fullbox{ width:100%;}
+
+.form1 label{ padding-bottom:15px;}
+
+.menu_bot{ margin-bottom:15px !important;}
+
+.copy{ float:left !important; font-size:12px !important; width:100% !important;}
+
+.bot2{ padding:15px 0px !important;}
+
+.input1_wrapper, .select1_wrapper{ margin:25px 0px !important;}
+
+.tabs1_content{ top:100px !important; overflow-y:auto !important;}
+
+.btn-form1-submit{ margin-bottom:100px;}
+
+.tabs1_content{padding-top:0px; padding-bottom:0px;}
+
+.tours_content{ margin-bottom:0px;}
+
+.cont_text h1 { display:none !important;}
+
+.cont_text p { display:none !important; }
+
+.cont_text a { display:none !important; }
+
+.select1_inner:before { background:none !important; }
+
+.full_detail{ width:100% !important; margin-top:30px !important;}
+
+.table_box figure{ width:100% !important;}
+
+.detailsd{ border-right:none !important; margin-bottom:30px !important;}
+
+.tour_text a{ display:inline-block !important; float:none !important;}
+
+.tour_text h1{ padding-bottom:20px;}
+
+.tour_text p{ float:left !important;}
+
+.checkout_text h1{ font-size:38px;}
+
+.checkout_text p{ font-size:16px;}
+
+.checkout_text{ padding-bottom:80px;}
+
+.billing_detail h1{ font-size:20px;}
+
+.trip_text{ max-width:466px; margin-top:20px; margin-left:0px;}
+
+.nav-tabs{ text-align:center;}
+
+.nav > li{ width:100%;}
+
+.btn-default.btn4{ padding:15px 15px 15px 15px; margin-right:15px; min-width:127px;}
+
+.btn-default.btn4:last-child{ margin-right:0px;}
+
+.pager .li{ display:none;}
+
+
+
+/*----------------06-09-2016 ----------------*/
+
+.favourite_box { width: 100% !important; }
+
+.favourite_box a	{ padding: 5px 0px; }
+
+
+
+}
+
+@media (min-width: 569px) and (max-width: 767px) {
+
+.button1_wrapper{ margin-top:60px;}
+
+.tabs1_content{padding-top:0px; padding-bottom:110px;}
+
+.tour_text a{ display:inline-block !important; float:none !important;}
+
+.tour_text h1{ padding-bottom:20px;}
+
+.tour_text p{ float:left !important;}
+
+.full_detail{ width:100% !important; margin-top:30px !important;}
+
+.table_box figure{ width:100% !important; margin-right:0% !important;}
+
+.detailsd{ border-right:none !important; margin-bottom:30px !important;}
+
+.trip_text, #trip_text{ max-width:675px; margin-left:0px; margin-top:20px;}
+
+}
+
+@media (max-width: 767px) {
+
+	.navbar_ {float: none; height: 100px; margin-bottom: 0; padding-top: 0; padding-bottom: 0; }
+
+	.navbar-collapse_{clear: both; margin-left: -15px; margin-right: -15px;}
+
+	.navbar_ .nav{display: block; background: none; border-right: none;background: #fff; border: none;}
+
+	.navbar_ .nav > li{float: none;background: none; border-left: none; margin-left: 0; border-top:1px solid #a1b1bc; background: none;}
+
+	.navbar_ .nav > li > a{margin-bottom: 0; padding-top: 15px!important; padding-bottom: 15px!important; border: none;}
+
+.cont_text, .tripphoto{ display:none;}
+
+	.sub-menu ul{position: relative; left: 0; top: 0;}
+
+.img-responsive{ width:100%;}
+
+  .slider_tabs{margin-top: 0px;}
+
+.tour_detail{ margin-top:20px; padding-left:0px;}
+
+  .tabs1_tabs .ui-tabs-nav{display: block; margin-left: -15px; margin-right: -15px;}
+
+  .tabs1_tabs .ui-tabs-nav li{margin-left: 0!important;display: block;float: none; margin-bottom: 1px!important;}
+
+.sign_part2{ margin-top:0px;}
+
+  .btn-form1-submit{margin-top:0;}
+
+.title1{ font-size:28px; letter-spacing:0px;}
+
+  .tour2 figure{float: none;}
+
+.tab_box{ margin-top:100px;}
+
+  .tour2 figure img{width: 100%;}
+
+.desti_box{ margin-bottom:15px;}
+
+.trip_text a{ padding-bottom:0px;}
+
+  .tour2 .caption .left{float: none; width: 100%;}
+
+  .tour2 .caption .right{float: left; width: 100%; text-align: left; padding-top: 10px;}
+
+.tour_list img{ width:100%; height:auto;}
+
+  .tour2 .caption .txt7{padding-top: 10px;}
+
+
+
+  .tour2 .caption{padding:15px 0px 15px 10px;}
+
+.pager li.prev a, .pager li.next a{ padding:7px 5px;}
+
+  .num-comments .left{float: none;}
+
+  .num-comments .right{float: none;}
+
+  .comment-block.left1{margin-left: 36px;}
+
+
+
+  .partner1 a figure{max-width: 40%; margin: 0 auto;}
+
+
+
+  .hero_image_box{ margin-top:0px !important;}
+
+  .navbar_{ padding-top:0px !important; padding-bottom:0px !important;}
+
+  .input1_wrapper, .select1_wrapper{ margin:30px 0px;}
+
+  .hero_image_box{ height:692px !important;}
+
+  .rowone h1, .tour_list, .rowtwo h1, #comp_tour{ max-width:695px; border-right:none;}
+
+.rowone h2, .rowone h3, .rowone h4, .rowone h5, .origincity, .destination, .status, .remove, .completed, .cart, .rowtwo h2, .rowtwo h3, .rowtwo h4{ display:none;}
+
+.origin_box strong, .desti_box strong{ text-transform:uppercase;}
+
+.origin_box, .desti_box{ float:left; width:100%; font-size:14px; font-family:'Roboto Condensed'; font-weight:normal; color:#151515; letter-spacing:1px; display:block !important;}
+
+.trip_text span, .trip_text small a, .trip_text samp, .trip_text strong a{ display:block;}
+
+.trip_text small a i, .trip_text span i, .trip_text samp i{ display:block; line-height:22px; float:left;}
+
+.nav-tabs > li > a{ letter-spacing:0px; padding:18px 10px; font-size:14px;}
+
+.trip_text span, .trip_text samp{ padding:8px 10px; margin-right:7px; display:block !important}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+.navbar_ .nav > li > a{padding-left:15px; padding-right:15px;}
+
+.navbar_ .nav > li > a em{margin-right: 0;}
+
+.full_detail{ width:100% !important; margin-top:30px !important;}
+
+.table_box figure{ width:100% !important; margin-right:0%;}
+
+.tour2 figure{width: 100px;}
+
+.cont_text{ top:100px; left:0%; right:0%;}
+
+.tabs2_tabs .ui-tabs-nav{font-size: 13px;}
+
+.cont_text h1{ font-size:45px; padding-bottom:5px;}
+
+.cont_text p{ font-size:14px;}
+
+.cont_text a{ margin-top:10px;}
+
+.tour2 .caption .left{width: 60%;}
+
+.input1_wrapper, .select1_wrapper, .button1_wrapper{ margin:30px 0px;}
+
+.tabs1_content{ padding:10px 0 90px;}
+
+.remember label, .remember a{ line-height:28px !important;}
+
+.rowone h1, .tour_list, .rowtwo h1{ max-width:678px; border-right:none;}
+
+.rowone h2, .rowone h3, .rowone h4, .rowone h5, .origincity, .destination, .status, .remove, .completed, .cart, .rowtwo h2, .rowtwo h3, .rowtwo h4{ display:none;}
+
+.trip_text{ max-width:546px;}
+
+.origin_box strong, .desti_box strong{ text-transform:uppercase;}
+
+.origin_box, .desti_box{ float:left; width:100%; font-size:14px; font-family:'Roboto Condensed'; font-weight:normal; color:#151515; letter-spacing:1px; display:block;}
+
+.desti_box{ margin-bottom:15px;}
+
+.trip_text a{ padding-bottom:0px;}
+
+.trip_text span, .trip_text small a, .trip_text samp, .trip_text strong a{ display:block;}
+
+.trip_text small a i, .trip_text span i, .trip_text samp i{ display:block; line-height:22px; float:left;}
+
+.tour2 .caption{ padding:6px 15px 5px 15px;}
+
+.pager li.prev a, .pager li.next a{ padding:7px 9px;}
+
+.img-responsive{ width:100%;}
+
+.sign_part2{ margin-top:0px;}
+
+.favourite_box { float: right !important; }
+
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+
+.cont_text{ left:0% !important; right:0% !important; top:120px !important;}
+
+.rowone h1, .rowtwo h1, #comp_tour{ max-width:560px;}
+
+.rowone h3, .destination, .rowtwo h3{ border-right:none;}
+
+.rowone h4, .rowone h5, .status, .remove, .completed, .cart, .rowtwo h4{ display:none;}
+
+.trip_text span, .trip_text small a, .trip_text samp, .trip_text strong a{ display:block;}
+
+.trip_text small a i, .trip_text span i, .trip_text samp i{ display:block; line-height:22px; float:left;}
+
+.trip_text, #trip_text{ max-width:426px;}
+
+.origincity p{ padding:49px 15px;}
+
+.tour_list{ max-width:560px; padding:14px 10px;}
+
+
+
+.favourite_box { float: right !important; }
+
+}
+
+
+
+
+
+

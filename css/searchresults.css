@@ -1,0 +1,5 @@
+#ajax-contact-form2 .form-group{margin-left: 0; margin-right: 0; margin-bottom: 20px;}
+#ajax-contact-form2 .form-group label{color: #272727; font-weight: 400; display: none;}
+#ajax-contact-form2 #where{background: url(../images/m4.png) 22px center no-repeat #f8f8f8;}
+#ajax-contact-form2 .form-control{height: 48px; padding: 13px 12px 13px 45px; font-size: 13px; line-height: 20px; color: #959595; background-color: #f8f8f8;border: 1px solid #fff;border-radius:0px; -moz-border-radius:0px; -webkit-border-radius:0px;}
+#ajax-contact-form2 #date{background: url(../images/m5.png) 20px center no-repeat #f8f8f8;}

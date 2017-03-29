@@ -1,0 +1,39 @@
+/*========== My-Trip Detail Page ==========*/
+
+.trip_detail_box{ float:left; width:100%; margin-top:130px; padding-bottom:150px;}
+.search-back{ float:left; width:100%; margin-top:30px;}
+.search-back a{ color:#FFF; font-size:18px; font-weight:600; line-height:normal; padding:12px; background-color:#13e7ff; float:left;}
+.search-back a:hover{ background-color:#3F3E44;}
+.detail_box{ float:left; width:100%; background-color:#FFF; padding:20px; margin-top:30px;}
+.tour_text{ float:left; width:100%; border-bottom:1px solid #ccc; padding-bottom:8px;}
+.tour_text h1{ float:left; width:100%; font-size:30px; font-weight:bold; color:#13e7ff; font-family:'Roboto Condensed'; margin:0px;}
+.tour_text a{ float:right; text-align:right; padding:5px 15px; background-color:#13e7ff; color:#FFF; font-family:'Roboto Condensed'; font-weight:normal; font-size:13px; line-height:24px; text-transform:uppercase; text-decoration:none;}
+.tour_text a:hover{ background-color:#3F3E44;}
+.favourite_box{ float:right; width:auto;}
+.favourite_box a i{ float:left; font-size:18px; line-height:24px; margin-right:7px;}
+.favourite_box a{ font-family:'Roboto Condensed'; font-size:13px; color:#29E7FF; font-weight:bold; letter-spacing:1px; text-transform:uppercase; line-height:24px; text-decoration:none; background-color:#FFF;}
+.favourite_box a:hover{ background: transparent; color:#151515;}
+.tour_text p{ float:right; text-align:right; font-family:'Roboto Condensed'; font-size:30px; color:#29E7FF; font-weight:bold; line-height:35px; margin:0px; padding-right:10px;}
+.table_box, .sign_box{ float:left; width:100%; margin-top:30px;}
+.table_box figure{ float:left; width:32%; margin-right:2%; position:relative;}
+.full_detail{ float:left; width:66%; margin:0px; padding:0px;}
+.detailsd{ width:100%; float:left;}
+.detailsd tr th{ font-family:'Roboto Condensed'; font-size:22px; font-weight:600; color:#13e7ff; padding:0px; width:100%; line-height:30px;}
+.detail_concept{ width:100%; float:left; margin:5px 0px 7px;}
+.detail_concept th{ float:left; width:60% !important; font-size:16px !important; font-weight:bold !important; color:#151515 !important; line-height:24px !important;}
+.detail_concept th i{ display:inline-block; text-align:center; width:10%; font-size:16px; line-height:24px; margin-right:10px;}
+.detail_concept td{ font-size:16px; font-weight:normal; color:#151515; float:left; width:40%; font-family:'Roboto Condensed'; border:none; padding:0px; line-height:24px;}
+.stay_detail{ background: #fff; margin-top:30px; float:left; width:100%; padding:20px;}
+.stay_detail h2{ width:100%; float:left; padding-bottom:12px;display:block; font-family:'Roboto Condensed'; font-weight:700;font-size:24px;color:#2f383d;line-height:30px;margin:0;}
+.stay_detail figure{float:left; width:35%; margin-right:0%;}
+.stay_detail figure img{ width:100%; float:left; height:auto;}
+.tour_detail{ float:left; width:65%; padding-left:2%;}
+.tour_detail h1{ font-family:'Roboto Condensed'; float:left; width:100%; font-size:18px; color:#222222; font-weight:bold; text-transform:uppercase; letter-spacing:1px; padding-top:0px; padding-bottom:0px;}
+.tour_detail .txt3{ font-size:14px; color:#bebebe; float:left; width:100%; margin-top:10px;}
+.tour_detail .txt3 .stars{ min-width:100px; float:left; margin-top:-2px;}
+.txt4{ float:left; color:#000000 !important; margin-top:10px;}
+.txt4 h4{ float:left; font-size:18px; font-weight:bold; width:100%;}
+.txt4 p{ margin:0px; width:100%; float:left; padding-top:10px;}
+.stay_detail h4{ width:100%; float:left; display:block; font-family:'Roboto Condensed'; font-weight:700; font-size:24px; color:#2f383d; line-height:30px; margin:0;}
+.stay_detail article h3{ font-size:19px; float:left; padding:15px 10px 0px; line-height:30px; font-family:'Roboto Condensed'; font-weight:700; color:#555; width:100%; margin:0px;}
+.stay_detail article p{ float:left; width:100%; line-height:22px; color:#333; padding:0px 20px; margin:0px;}

@@ -1,0 +1,8 @@
+.footer{ position:fixed; bottom:0; width:100%; z-index:10;}
+.footer_text{ position:relative; background:#141414; padding:30px 0; color:#777777; font-family:'Roboto Condensed';}
+.fotter_menu{ float:left; width:100%; padding:0px; margin:0px; list-style:none;}
+.fotter_menu li{ text-decoration:none; float:left; padding-right:25px;}
+.fotter_menu li:last-child{ padding-right:0px;}
+.fotter_menu li a{ font-family:'Roboto Condensed'; font-size:14px; color:#fff; text-transform:uppercase; font-weight:normal;}
+.fotter_menu li a:hover, .fotter_menu li.active a{ color:#13e7ff;}
+.copyright{float: right; font-size: 14px; letter-spacing: 1px;}

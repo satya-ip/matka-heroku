@@ -1,0 +1,130 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Matka Travel - Let us show you the world!</title>
+		<meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Your description">
+        <meta name="keywords" content="Your keywords">
+        <meta name="author" content="Your name">
+        
+        <!-- Stylesheet Box -->
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.11.2/css/bootstrap-select.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.css" rel="stylesheet">
+        <link href="css/header.css" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet">
+        <link href="css/footer.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        
+        <!-- JS box -->
+	</head>
+	<body>
+        <header>
+            <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html"><img src="images/logo.png" title="Matka Travel - Let us show you the world!"></a>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="active"><a href="index.html">Home</a></li>
+                            <li><a href="signup.html">Sign Up</a></li>
+                            <li><a href="login.html">Log in</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div id="mycarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="images/slide11.jpg">
+                </div>
+            </div>
+        </div>
+        <div class="serach_tripbox">
+        	<div class="container">
+            	<div class="row">
+                	<div class="col-md-3 col-sm-6 col-xs-6 fullbox">
+                    	<div class="select_option">
+                        	<label>Enter origin city</label>
+                            <select class="selectpicker">
+                                <option value="1">Enter origin city</option>
+                                <option value="2">SFO</option>
+                            </select>
+                    	</div>
+                  	</div>
+                    <div class="col-md-3 col-sm-6 col-xs-6 fullbox">
+                        <div class="select_option">
+                            <label>Enter Popular Place, city or destination</label>
+                            <select class="selectpicker">
+                                <option value="1">Enter a destination</option>
+                                <option value="2">NYC</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-4 col-xs-4 fullbox">
+                        <div class="select_option">
+                            <label>Trip Start date</label>
+                           	<input class="form-control" id="date" name="date" placeholder="DD/MM/YYY" type="text"/>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-4 col-xs-4 fullbox">
+                        <div class="select_option">
+                            <label>Trip End date</label>
+                           	<input class="form-control" id="date" name="date" placeholder="DD/MM/YYY" type="text"/>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-4 col-xs-4 fullbox">
+                        <div class="select_option">
+                            <button type="submit" class="btn-default btn-form1-submit"><i class="fa fa-search"></i>search now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      	</div>
+        <footer class="footer">
+            <div class="footer_text">
+                <div class="container">
+                	<div class="row">
+                    	<div class="col-md-3">
+                            <ul class="fotter_menu clearfix">
+                                <li><a href="privacy.html">Privacy Policy</a></li>
+                                <li><a href="about-us.html">About Us</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-9">
+                        	<div class="copyright">&copy; 2016 All Rights Reserved. Matka Travel Company</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+        <script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.11.2/js/bootstrap-select.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.js"></script>
+        <script>
+			$(document).ready(function(){
+				var date_input=$('input[name="date"]'); //our date input has the name "date"
+				var container=$('.bootstrap-iso form').length>0 ? $('.bootstrap-iso form').parent() : "body";
+				date_input.datepicker({
+					format: 'dd/mm/yyyy',
+					container: container,
+					todayHighlight: true,
+					autoclose: true,
+				})
+			})
+		</script>
+	</body>
+</html>
