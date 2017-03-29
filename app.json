@@ -1,0 +1,7 @@
+{
+  "name": "Matka Fullstack application.",
+  "description": "Fullstack Travel application with all UI and Java frameworks integrated.",
+  "repository": "https://github.com/satya-ip/matka-heroku.git",
+  "logo": "http://node-js-sample.herokuapp.com/node.svg",
+  "keywords": ["node", "express", "static"]
+}

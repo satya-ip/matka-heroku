@@ -1,0 +1,29 @@
+{
+  "name": "matka-fullstack-app",
+  "version": "0.2.0",
+  "description": "A complete fullstack application based on UI and Java based server technologies.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.13.3"
+  },
+  "engines": {
+    "node": "4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/satya-ip/matka-heroku.git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "author": "Satya Katakam",
+  "contributors": [
+    "Satya Katakam <satya@ipivot.io>"
+  ],
+  "license": "MIT"
+}
